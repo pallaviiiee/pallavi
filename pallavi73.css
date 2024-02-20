@@ -1,0 +1,305 @@
+body{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+*{
+padding: 0;
+}
+/*nav*/
+.nav{
+    justify-content: end;
+    align-items: end;
+    display: flex;
+    border-bottom: 1px solid rgba(0,0,0,0.07);
+    position: fixed;
+   padding: 10px;
+   z-index: 9999;
+   background-color: white;
+}
+a{
+text-decoration: none;
+color: rgb(107, 99, 99);
+padding: 0px 20px 0px 20px;
+font-weight: 600;
+font-size: 15px; 
+
+}
+a:hover{
+color: black;
+}
+.fa-bars{
+    font-size: 25px;
+    visibility: hidden;
+}
+@media (max-width: 600px){
+    .fa-bars{
+        visibility: visible;
+    }
+    a{
+        display: none;
+    }
+}   
+
+/*container1*/
+.coco{
+   position: relative;
+   top: 100px;
+   padding-bottom: 50px;
+}
+
+h1,p{
+    font-weight: 800px;
+    color: rgb(0, 0, 0); 
+}
+.right{
+position: relative;
+}
+
+.left{
+position: relative;
+}
+.girl{
+object-fit: cover;
+
+}
+.up{
+display: flex;
+height: 200px;
+}
+.down{
+    height: 300px;
+}
+.img{
+position: relative;
+bottom: 220px;
+left: 270px;
+}
+
+/*box2*/
+.contain2{
+    position: relative;
+    top: 200px;
+ }
+ .ab{
+    display: flex;
+    position: relative;
+    
+}
+.ab::before{
+    content: ""; 
+    position: absolute;
+    top: 30px;
+    width: 20%;
+    height: 2px;
+    background-color: black;
+}
+
+
+/*box3*/
+.contain3{
+    position: relative;
+    top: 300px;
+}
+.pictures{
+    display: flex;
+    justify-content: flex-end;
+}
+/*box4*/
+
+.contain4{
+    position: relative;
+    top: 350px;
+    display: flex;
+   align-items: center;
+}
+.comleft{
+    padding-top: 50px;
+    padding-bottom: 50px;
+   font-weight: 700;
+}
+.hey{
+    text-decoration: underline;
+}
+.add{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.arrow{
+  font-size: 30px;
+  position: relative;
+  left: 200px;
+  padding-top: 10px;
+}
+/*box5*/
+
+.contain5{
+    position: relative;
+  top: 400px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  
+}
+.borderr{
+    display: flex;
+    align-items: end;
+   
+}
+
+/*box6*/
+
+.contain6{
+    position: relative;
+    top: 400px;
+}
+
+/*box7*/
+.contain7{
+    position: relative;
+    top: 400px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+/*box8*/
+.contain8{
+    position: relative;
+    top: 400px;
+}
+/*box9*/
+.contain9{
+    position: relative;
+    top: 400px;
+    padding-top: 50px;
+    padding-bottom: 50px;   
+}
+.img4{
+    height:80px;
+    width:150px;
+}
+.round{
+    position: relative;
+    left: 165px;
+    top: 50px;
+}
+/*box10*/
+
+.contain10{
+    position: relative;
+    top: 400px;
+    padding-top: 50px;
+    padding-bottom: 50px;  
+}
+/*box11*/
+.contain11{
+    position: relative;
+    top: 400px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 100px;  
+}
+.possible{
+    display: flex;
+    justify-content: end;
+
+}
+.curll{
+ position: relative;
+
+}
+/*box12*/
+.contain12{
+    position: relative;
+    top: 400px;
+    background-color: #00906d;
+    height: auto;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    color: white;
+}
+.arrow1{
+    padding-right: 10px;
+}
+/*box13*/
+.contain13{
+    position: relative;
+    top: 500px;
+}
+.hi{
+    display: flex;
+    position: relative;
+ }
+ .hi::after{
+    content: "";
+    position: absolute;
+    left: 0;
+   top: 40px;
+    height: 1px;
+    width: 20%;
+    background-color: black;
+ }
+
+.arrow2{
+    position: relative;
+    left: 280px;
+    font-size: 30px;
+    bottom: 100px;
+}
+.arrow3{
+    position: relative;
+    left: 280px;
+    font-size: 30px;
+    bottom: 80px;
+}
+.reed{
+    position: relative;
+    left: 70%;
+    bottom: 80px;
+}
+/*box14*/
+.contain14{
+    position: relative;
+    top: 550px;
+}
+/*box15*/
+.contain15{
+    position: relative;
+    top: 600px;
+    padding-top: 100px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.hii{
+    position: relative;
+}
+.hii::after{
+    content: "";
+    position: absolute;
+    left: 0;
+   top: 40px;
+    height: 1px;
+    width: 10%;
+    background-color: black;
+ }
+/*box16*/
+.contain16{
+    background-color: #605dc8;
+    position: relative;
+    top: 700px;
+}
+.footer{
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.white{
+    position: relative;
+    bottom: 180px;
+    left: 100px;
+}
